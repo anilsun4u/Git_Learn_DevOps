@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -e "Enter ServerName: \c"
+read Serv
+if [ $Serv == "vhst" ]
+   echo "Server is Host"
+   else
+   echo "Server is VM"
+fi
